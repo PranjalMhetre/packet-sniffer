@@ -19,7 +19,8 @@ public:
   bool pop(RawPacket &out);
   void stop();
 
-  int dropped() const { return dropped_count; }
+  int dropped() 
+  const { return dropped_count; }
 
 private:
   std::queue<RawPacket> queue;
