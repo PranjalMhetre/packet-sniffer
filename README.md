@@ -1,4 +1,4 @@
-# Packet Sniffer
+# Network Traffic Analyzer
 
 A network packet analyzer written in C++ that captures and parses live traffic at the binary level. Built on libpcap with a multithreaded producer-consumer architecture. A capture thread pushes raw packets into a thread-safe queue while a parser thread decodes Ethernet, IP, TCP, UDP, DNS, and HTTP headers in parallel.
 
